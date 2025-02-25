@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    border-radius: 0;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.main_bg {
+    background-image: url("/assets/backgrounds/join_us_background.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.jin_woo {
+    height: 100vh;
+    width: auto;
+    align-self: flex-start;
+    position: absolute;
+    z-index: 999999;
+}
+
+.announce_board {
+    height: 70vh;
+    width: auto;
+    align-self: end;
+    align-content: center;
+    justify-self: center;
+    justify-content: center;
+    /* background-color: red; */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.announce_board>img {
+    position: relative;
+    z-index: 1;
+}
+
+.announce_board>div {
+    width: 40%;
+    height: 70vh;
+    position: absolute;
+    z-index: 999999;
+    align-self: end;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.announce_board>div>div>p {
+    font-size: 3.5rem;
+    margin-bottom: 10%;
+}
+
+.announce_board>div>p {
+    font-size: 1.5rem;
+}
+
+
+.announce_board>div>p,
+.announce_board>div>div>p {
+    color: #A9A2E9;
+}
+
+.hello {
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding-bottom: 100px;
+}
+
+.flexcol {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.flexcol>a>img {
+    width: auto;
+    height: 110px;
+    margin-bottom: 50px;
+}
