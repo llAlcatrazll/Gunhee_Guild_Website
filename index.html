@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -18,4 +19,12 @@
     '<object type="text/html" data="/pages/sub_pages/landing_banner.html" ></object>';
   document.getElementById("join_us").innerHTML =
     '<object type="text/html" data="/pages/sub_pages/join_us_announcement_board.html" ></object>';
+
+  // vercel use tracker
+  window.va =
+    window.va ||
+    function () {
+      (window.vaq = window.vaq || []).push(arguments);
+    };
 </script>
+<script defer src="/_vercel/insights/script.js"></script>
