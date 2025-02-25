@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    border-radius: 0;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.full_size {
+    height: 100vh;
+    background-color: #040207;
+    align-items: center;
+    text-align: center;
+}
+
+div {
+    color: white;
+}
+
+#content {
+    width: 100vw;
+    height: 100vh;
+    background-color: red;
+}
+
+object {
+    width: 100vw;
+    height: 100vh;
+    background-color: green;
+    overflow-x: hidden;
+}
